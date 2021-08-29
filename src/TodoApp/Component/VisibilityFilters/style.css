@@ -1,0 +1,25 @@
+.visibility-filters {
+  padding: 20px;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visibility-filters .filter {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: auto;
+  text-transform: capitalize;
+  min-width: 80px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.visibility-filters .filter--active {
+  background: #c93e3e;
+  color: #fff;
+}

@@ -1,0 +1,23 @@
+.todo-item {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #f0f0f0;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.todo-item .todo-item__text {
+  margin: auto 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #c93e3e;
+}
+
+.todo-item .todo-item__text--completed {
+  color: #000;
+}
